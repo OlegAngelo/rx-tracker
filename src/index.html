@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR with Tesseract.js and Camera</title>
+</head>
+<body>
+    <h1>Capture Image</h1>
+    <video id="video" width="320" height="240" autoplay></video>
+    <button id="capture">Capture</button>
+    <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+    <p id="text">Prescription...</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR with Tesseract.js and File Upload</title>
+</head>
+<body>
+    <h1>Upload prescription</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <canvas id="canvas" style="display:none;"></canvas>
+    <p id="text">Recognized Text will appear here...</p>
+
+    <!-- Tesseract.js -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+    <!-- Your custom JS -->
+    <script src="index2.js"></script>
+</body>
+</html>
